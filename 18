@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #opcao1:checked{
+       accent-color:  red;
+    }
+    #opcao2:checked{
+       accent-color:  green;
+    }
+    #opcao4:checked{
+       accent-color:  rgb(17, 0, 255);
+    }
+    #opcao5:checked{
+       accent-color:  rgb(255, 0, 179);
+    }
+    body{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+    }
+    .Escolhas{
+        border: 1px solid black;
+        width: 200px;
+        border-radius: 10px;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+    }
+</style>
+<body>
+    <div class="Escolhas">
+        <p>
+            Escolha 1<input type="radio" id="opcao1" name="grupo"/><br>
+            Escolha 2<input type="radio" id="opcao2" name="grupo"/><br>
+            Escolha 3<input type="radio" id="opcao3" name="grupo"/>
+        </p>
+        <p>
+            Escolha 1<input type="checkbox" id="opcao4"/><br>
+            Escolha 2<input type="checkbox" id="opcao5"/><br>
+            Escolha 3<input type="checkbox" id="opcao6"/>
+        </p>
+    </div>
+</body>
+</html>
