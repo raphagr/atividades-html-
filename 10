@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Atividade 10</title>
+    </head>
+    <style>
+        section{
+            display: flex;
+        }
+        .box1{
+            height: 500px;
+            width: 320px;
+            background-color: blue;
+        }
+        .box2{
+            height: 500px;
+            width: 320px;
+            background-color: red;
+        }
+        .box3{
+            height: 500px;
+            width: 320px;
+            background-color: aqua;
+        }
+    </style>
+<body>
+    <section>
+    <div class="box1">Box1</div>
+    <div class="box2">Box2</div>
+    <div class="box3">Box3</div>
+    </body>
+    </section>
+</html>
