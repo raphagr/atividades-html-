@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgb(61, 61, 61);
+        width: 70px;
+    }
+
+    input{
+        border-radius: 15px;
+        width: 300px;
+        box-shadow: 5px 5px 5px rgb(68, 68, 68);
+    }
+</style>
+<body>
+    <p> Login</p>
+    <input>
+    <p> Senha</p>
+    <input>
+    <button>Enviar</button>
+</body>
+</html>
