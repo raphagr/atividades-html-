@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section{
+        text-align: center;
+        background-color: lightyellow;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+</style>
+<body>
+    <section>
+        <h1>Titulo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui, pariatur nostrum rerum nemo repellat inventore quod eum accusamus sunt earum repudiandae maxime dolorum quia magnam neque? Debitis, ab nam.</p>
+    </section>
+</body>
+</html>
